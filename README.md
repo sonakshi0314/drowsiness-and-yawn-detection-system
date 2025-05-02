@@ -22,13 +22,13 @@ Upon detection, the system triggers an alarm to alert the driver.
 - TensorFlow / Keras 
 
 ## 📁 Project Structure
-├── dataset/ # Images/videos for training (if applicable)
-├── model/ # Trained models (optional)
-├── utils/ # Utility functions (EAR, MAR calculations, etc.)
-├── main.py # Entry point for real-time detection
-├── alarm.wav # Sound file for alerts
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+1. dataset/ # Images/videos for training (if applicable)
+2. model/ # Trained models (optional)
+3. utils/ # Utility functions (EAR, MAR calculations, etc.)
+4. main.py # Entry point for real-time detection
+5. alarm.wav # Sound file for alerts
+6. requirements.txt # Python dependencies
+7. README.md # Project documentation
 
 📐 How It Works
 1. Eye Aspect Ratio (EAR): Calculates the ratio between the vertical and horizontal eye landmarks. If EAR is below a certain threshold for a number of frames, drowsiness is detected.
